@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1f1517;
+    color: #FFFFFF;
+
+}
+html{
+    font-family: inter, sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #C7BAB3;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    max-width:  1200px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: teko;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    color: #FFF2E780;
+}
+
+.gg {
+    flex-direction: column;
+    gap: 1.5rem;
+    display:flex;
+    color: #FFF2E7;
+    font-weight: 600;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.principal {
+
+    background: #181012;
+}
+
+.hero {
+    
+    max-width: 1120px;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    padding: 0rem 1rem;
+    margin: auto;
+    align-items: center;
+}
+
+.hero-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 5%;
+    padding: 0;
+
+}
+
+h1{
+
+    font-family: montserrat;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+hr{
+    border-color: #A45A49;
+}
+
+h2 {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.hero-imagens {
+    margin: auto;
+    column-count: 2;
+    column-gap: 1rem;
+    max-width: 100%;
+    max-height: 400px;
+}
+
+
+
+.hero-imagens > figure > img{
+    width: 100%;
+    border-radius: 2rem;
+    max-width: 200px;
+    margin: 10%;
+    
+    
+}
+
+
+
+.cursos {
+
+    display:flex;
+    flex-direction: column;
+    column-count: 2;
+    max-width: 1120px;
+    padding: 3rem 2rem;
+    margin: auto;
+}
+
+.cursos-cabecalho {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5;
+    position: relative;
+    right: 80px;
+}
+
+.confira {
+
+    font-family: Montserra;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFF2E7;
+}
+
+.confira-subtitulo {
+
+    color: #C7BAB3;
+    font-family: inter;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.curso-cont {
+
+    padding: 0rem 10rem;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    position: relative;
+    right: 240px;
+    column-count: 2;
+    margin: auto;
+    
+}
+
+.curso-card {
+
+    background: #241A1c;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.curso-card-cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+
+}
+
+footer {
+
+    background: #181012;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5;
+}
+
+.Copyrigth {
+    color: #FFF2E7;
+    font-family: inter;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.autor {
+
+    color: #A45A49;
+    font-family: inter;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.principalfoto {
+    max-width: 1120px;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #181012;
+    padding: 0rem 1rem;
+    margin: auto;
+    align-items: center;
+
+
+}
+
+.imgfoto {
+
+    margin: 10%;
+    max-width: 250%;
+}
+
+.imgfoto > figure> img {
+
+    width: 300px;
+    border-radius: 2rem;
+}
+
+.smt {
+
+    font-family: montserrat;
+    font-size: 3.5rem;
+    font-weight: 800;
+    position: relative;
+    left: 80px;
+    
+}
+
+.textos {
+
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 10rem;
+    margin: auto;
+}
+
+.cci {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5;
+    font-family: Montserra;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #FFF2E780;
+}
+
+.texto1 {
+
+    padding: 0.5rem;
+    color: #FFF2E7;
+    font-family: inter;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.imagens > figure > img {
+
+    width: 100%;
+    border-radius: 1rem;
+    max-width: 100px;
+    margin: 10%;
+    
+}
+
+.icones {
+    
+    max-width: 50px;
+    max-height: 60px;
+    position: relative;
+    left: 20px;
+    margin: 3rem;
+    
+}
+
+.img-contacts {
+
+    
+    max-width: 1120px;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    padding: 4rem 1rem;
+    margin: auto;
+    position: relative;
+    right: 300px;
+}
+
+.contacts {
+
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    background: #A45A49 ;
+    position: relative;
+    right: 400px;
+
+}
+
+.n1 {
+    margin: 15%;
+    padding: 0.2rem;
+}
+
+.gm {
+
+    margin: 6%;
+    position: relative;
+    left: 6px;
+    padding: 0.5rem;
+}
